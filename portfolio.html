@@ -13,24 +13,32 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <!--Хэдер-->
-    <header class="header">
-        <div class="container header-container">
-        <a href="" lang="en" class="link webstudio">Web<span class="studio-header">Studio</span>  </a>
-            <nav class="header-nav">
-            <ul class="list header-list">
-                <li class="header-list-item"><a href="./index.html" class="link header-li">Студия</a></li>
-                <li class="header-list-item"><a href="./portfolio.html" class="link header-li">Портфолио</a></li>
-                <li class="header-list-item"><a href="" class="link header-li">Контакты</a></li>
-             </ul>
-            </nav>
-            <ul class="list header-contact-ul">
-                <li class="header-contact-li"><a href="mailto:info@devstudio.com" class="link header-contact">info@devstudio.com</a></li>
-                <li class="header-contact-li"><a href="tel:+380961111111" class="link header-contact">+38 096 111 11 11</a></li>
-            </ul>
-        </div>        
-             
-    </header>
+       <!--Хэдер-->
+<header class="header">
+    <div class="container header-container">
+    <a href="" lang="en" class="link webstudio">Web<span class="studio-header">Studio</span>  </a>
+        <nav class="header-nav">
+        <ul class="list header-list">
+            <li class="header-list-item"><a href="./index.html" class="link header-li">Студия</a></li>
+            <li class="header-list-item"><a href="./portfolio.html" class="link header-li">Портфолио</a></li>
+            <li class="header-list-item"><a href="" class="link header-li">Контакты</a></li>
+         </ul>
+        </nav>
+        <ul class="list header-contact-ul">
+            <li class="header-contact-li"><a href="mailto:info@devstudio.com" class="link header-contact"> 
+                <svg class="contact-icon" width="16" height="12">
+                <use href="./img/icons.svg#icon-contact-envelope">  </use>
+            </svg> 
+            info@devstudio.com</a></li>
+            <li class="header-contact-li"><a href="tel:+380961111111" class="link header-contact"> 
+                <svg class="contact-icon" width="10" height="16">
+                <use href="./img/icons.svg#icon-contact-mob">  </use>
+            </svg> 
+        +38 096 111 11 11</a></li>
+        </ul>
+    </div>        
+         
+</header>
 
 <!--Main-->
 <main>
@@ -174,26 +182,61 @@
 
 </main>
 
-    <!--Футер-->
-    <footer class="footer">
-        <div class="container footer-container">
+ <!--Футер-->
+ <footer class="footer">
+    <div class="container footer-container">
+        <div class="footer-contact">
+    <a href="" lang="en" class="link footer-webstudio">Web<span class="studio-footer">Studio</span>  </a>
+
+    <address class="footer-address">
+        <p class="footer-p">г. Киев, пр-т Леси Украинки, 26</p>
+        <ul class="list footer-ul">
+            <li class="footer-li"><a href="mailto:info@devstudio.com" class="footer-link link">info@devstudio.com</a></li>
+            <li class="footer-li"><a href="tel:+380961111111" class="footer-link link">+38 096 111 11 11</a></li>
+        </ul>
+        
     
-        <a href="" lang="en" class="link footer-webstudio">Web<span class="studio-footer">Studio</span>  </a>
-    
-        <address class="footer-address">
-            <p class="footer-p">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul class="list footer-ul">
-                <li class="footer-li"><a href="mailto:info@devstudio.com" class="footer-link link">info@devstudio.com</a></li>
-                <li class="footer-li"><a href="tel:+380961111111" class="footer-link link">+38 096 111 11 11</a></li>
+    </address>
+</div>
+
+    <div class="footer-networks">
+            <h4 class="join-us">Присоединяйтесь</h4>
+            <ul class="footer-icon-ul list">
+                <li class="footer-icon-li">
+                    <a href="" class="link footer-icon-link">
+                        <svg class="footer-icon" width="20" height="20">
+                            <use href="./img/icons.svg#icon-network-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer-icon-li">
+                    <a href="" class="link footer-icon-link">
+                        <svg class="footer-icon" width="20" height="20">
+                            <use href="./img/icons.svg#icon-network-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer-icon-li">
+                    <a href="" class="link footer-icon-link">
+                        <svg class="footer-icon" width="20" height="20">
+                            <use href="./img/icons.svg#icon-network-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer-icon-li">
+                    <a href="" class="link footer-icon-link">
+                        <svg class="footer-icon" width="20" height="20">
+                            <use href="./img/icons.svg#icon-network-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
             </ul>
-            
-        
-        </address>
     </div>
+
+</div>
     
-        
-    
-    </footer>
+
+</footer>
 
 </body>
 </html>
