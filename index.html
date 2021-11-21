@@ -25,8 +25,16 @@
          </ul>
         </nav>
         <ul class="list header-contact-ul">
-            <li class="header-contact-li"><a href="mailto:info@devstudio.com" class="link header-contact">info@devstudio.com</a></li>
-            <li class="header-contact-li"><a href="tel:+380961111111" class="link header-contact">+38 096 111 11 11</a></li>
+            <li class="header-contact-li"><a href="mailto:info@devstudio.com" class="link header-contact"> 
+                <svg class="contact-icon" width="16" height="12">
+                <use href="./img/icons.svg#icon-contact-envelope">  </use>
+            </svg> 
+            info@devstudio.com</a></li>
+            <li class="header-contact-li"><a href="tel:+380961111111" class="link header-contact"> 
+                <svg class="contact-icon" width="10" height="16">
+                <use href="./img/icons.svg#icon-contact-mob">  </use>
+            </svg> 
+        +38 096 111 11 11</a></li>
         </ul>
     </div>        
          
@@ -34,7 +42,7 @@
     <!--MAIN-->
 <main>
     <!--Герой-->
- <section class="hero">
+ <section class="hero linear">
      <div class="container hero-container">
         <h1 class="hero-main-title">Эффективные решения <br> для вашего бизнеса</h1>
         <button type="button" class="hero-btn">Заказать услугу</button>
@@ -47,6 +55,12 @@
         <h2 class="hidden">Наши сильные стороны</h2> <!--скрыть-->
         <ul class="list features-ul">
             <li class="features-li">
+                <div class="features-bgd">
+                    <svg class="features-icon" width="66" height="70">
+                        <use href="./img/icons.svg#icon-features-attentions">                         
+                        </use>
+                    </svg>
+                </div>
                 <div class="features-li-text">
                 <h3 class="features-h">Внимание к деталям</h3>
                 <p class="features-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -54,6 +68,12 @@
         </li>
 
             <li class="features-li">
+                <div class="features-bgd">
+                    <svg class="features-icon" width="66" height="70">
+                        <use href="./img/icons.svg#icon-features-clock">                         
+                        </use>
+                    </svg>
+                </div>
                 <div class="features-li-text">
                 <h3 class="features-h">Пунктуальность</h3>
                 <p class="features-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
@@ -61,6 +81,12 @@
          </li>
 
             <li class="features-li">
+                <div class="features-bgd">
+                    <svg class="features-icon" width="66" height="70">
+                        <use href="./img/icons.svg#icon-features-diagram">                         
+                        </use>
+                    </svg>
+                </div>
                 <div class="features-li-text">
                 <h3 class="features-h">Планирование</h3>
                 <p class="features-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
@@ -68,6 +94,12 @@
          </li>
 
             <li class="features-li">
+                <div class="features-bgd">
+                    <svg class="features-icon" width="66" height="70">
+                        <use href="./img/icons.svg#icon-features-astronaut">                         
+                        </use>
+                    </svg>
+                </div>
                 <div class="features-li-text">
                 <h3 class="features-h">Современные технологии</h3>
                 <p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
@@ -258,11 +290,63 @@
     </div>
 
 </section>
+
+<!--Постоянные клиенты-->
+
+<section class="customers">
+    <div class="customers-container">
+    <h2 class="customers-title">Постоянные клиенты</h2>
+    <ul class="customers-list list">
+        <li class="customers-li">
+            <a href="" class="customers-link">
+                <svg class="customers-icon" width="94" height="44">
+                    <use href="./img/icons.svg#icon-customer-one"> </use>
+                </svg>
+            </a>
+        </li>
+        <li class="customers-li">
+            <a href="" class="customers-link">
+                <svg class="customers-icon" width="94" height="44">
+                    <use href="./img/icons.svg#icon-customer-two"> </use>
+                </svg>
+            </a>
+        </li>
+        <li class="customers-li">
+            <a href="" class="customers-link">
+                <svg class="customers-icon" width="94" height="44">
+                    <use href="./img/icons.svg#icon-customer-three"> </use>
+                </svg>
+            </a>
+        </li>
+        <li class="customers-li">
+            <a href="" class="customers-link">
+                <svg class="customers-icon" width="94" height="44">
+                    <use href="./img/icons.svg#icon-customer-four"> </use>
+                </svg>
+            </a>
+        </li>
+        <li class="customers-li">
+            <a href="" class="customers-link">
+                <svg class="customers-icon" width="94" height="44">
+                    <use href="./img/icons.svg#icon-customer-five"> </use>
+                </svg>
+            </a>
+        </li>
+        <li class="customers-li">
+            <a href="" class="customers-link">
+                <svg class="customers-icon" width="94" height="44">
+                    <use href="./img/icons.svg#icon-customer-six"> </use>
+                </svg>
+            </a>
+        </li>
+    </ul>
+</div>
+</section>
 </main>
     <!--Футер-->
 <footer class="footer">
     <div class="container footer-container">
-
+        <div class="footer-contact">
     <a href="" lang="en" class="link footer-webstudio">Web<span class="studio-footer">Studio</span>  </a>
 
     <address class="footer-address">
@@ -276,6 +360,41 @@
     </address>
 </div>
 
+    <div class="footer-networks">
+            <h4 class="join-us">Присоединяйтесь</h4>
+            <ul class="footer-icon-ul list">
+                <li class="footer-icon-li">
+                    <a href="" class="link footer-icon-link">
+                        <svg class="footer-icon" width="20" height="20">
+                            <use href="./img/icons.svg#icon-network-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer-icon-li">
+                    <a href="" class="link footer-icon-link">
+                        <svg class="footer-icon" width="20" height="20">
+                            <use href="./img/icons.svg#icon-network-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer-icon-li">
+                    <a href="" class="link footer-icon-link">
+                        <svg class="footer-icon" width="20" height="20">
+                            <use href="./img/icons.svg#icon-network-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer-icon-li">
+                    <a href="" class="link footer-icon-link">
+                        <svg class="footer-icon" width="20" height="20">
+                            <use href="./img/icons.svg#icon-network-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+    </div>
+
+</div>
     
 
 </footer>
