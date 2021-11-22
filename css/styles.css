@@ -7,7 +7,7 @@
 --background-footer-color:#2f303a;
 --background-hero-color: #2f303a;
 --background-team-color: #f5f4fa;
---customers-bgd-color: #e5e5e5;
+--customers-bgd-color: #ffffff;
 
 --title-h1-color: #ffffff;
 --title-h2-color: #212121;
@@ -283,6 +283,10 @@ img {
 .join-us {
     margin-bottom: 20px;
     text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
     color: var(--footer-text-color);
 }
 
@@ -295,6 +299,10 @@ img {
     width: 44px;
     height: 44px;
 
+}
+
+.footer-icon-li:not(:last-child) {
+    margin-right: 10px;
 }
 
 .footer-icon-link {
@@ -411,12 +419,16 @@ img {
 
 
 .features-bgd {
-    background-color: var(--features-bgd-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     margin-bottom: 30px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 102px;
-    padding-left: 102px;
+
+    height: 120px;
+    background-color: var(--features-bgd-color);
+   
 }
 
 .features-icon {
@@ -574,6 +586,7 @@ img {
     width: 100%;
     height: 100%;
 
+    border-radius: 50%;
     background-color: var(--team-background-cards);
   
     
@@ -641,23 +654,33 @@ img {
     justify-content: center;
     align-items: center;
 
+    
     width: 100%;
     height: 100%;
-
 
     border: 1px solid var(--border-customers);
     box-sizing: border-box;
     border-radius: 4px;
+
+
+    
+
+    
+}
+
+.customers-link:focus, .customers-link:hover {
+    border: 1px solid var(--highlight-color);
 }
 
 .customers-link:hover .customers-icon, 
 .customers-link:focus .customers-icon {
     fill: var(--highlight-color);
-    border: 1px solid var(--highlight-color);
+    
 }
 
 .customers-icon {
     
+   
     fill: var(--customers-icons-color);
 }
     
