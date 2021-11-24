@@ -225,7 +225,6 @@ img {
 
 .footer-contact {
     margin-right: 70px;
-    margin-bottom: 72px;
 
 }
 
@@ -567,7 +566,7 @@ img {
     display: flex;
     justify-content: center;
 
-    padding-top: 28px;
+    margin-top: 16px;
 }
 .team-network-li {
     width: 44px;
